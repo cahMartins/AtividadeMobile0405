@@ -49,6 +49,7 @@ class _HomeState extends State<Home> {
           appBar: AppBar(
             title: Text("Estudando Statefull"),
             centerTitle: true,
+            backgroundColor: Colors.black,
           ),
           body: Center(
               child: Container(
@@ -69,8 +70,9 @@ class _HomeState extends State<Home> {
                       style: TextButton.styleFrom(
                         primary: Colors.white,
                         backgroundColor: Colors.blue,
+
                       ),
-                      child: Text('Abrir'),
+                      child: Text("Salvar"),
                     ),
                   ],
                 ),
