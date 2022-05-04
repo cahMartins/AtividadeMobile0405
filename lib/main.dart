@@ -65,14 +65,16 @@ class _HomeState extends State<Home> {
                         });
                       },
                     ),
-                    TextButton(
+                    TextButton.icon(
                       onPressed: _showcontent,
                       style: TextButton.styleFrom(
                         primary: Colors.white,
                         backgroundColor: Colors.blue,
 
                       ),
-                      child: Text("Salvar"),
+                      label: Text("Salvar"),
+                      icon: Icon(Icons.save),
+
                     ),
                   ],
                 ),
